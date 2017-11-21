@@ -1,0 +1,59 @@
+div {
+          
+        padding: 1%;
+        height: 30%;
+    
+    }
+    
+    .st0 {
+        fill: transparent;
+        stroke: #d2e7f8;
+        -webkit-transition: fill ease 1s, stroke ease 1s;
+        transition: fill ease 1s, stroke ease 1s;
+    }
+    
+
+    
+    .st1 {
+        fill: transparent;
+        stroke: #F9698C;
+        -webkit-transition: fill ease 1s, stroke ease 1s;
+        transition: fill ease 1s, stroke ease 1s;
+    }
+    
+    .st0-on {
+    
+    
+        animation: aparece-blue 1s;
+        fill: #d2e7f8;
+        stroke: none;
+    
+    }
+    .st1-on {
+        animation: aparece-red 1s;
+        fill: #F9698C;
+        stroke: transparent;
+    
+    }
+    
+    @keyframes aparece-blue  {
+        from {
+            fill: transparent;
+            stroke: #d2e7f8;
+        }
+        to {
+            fill: #d2e7f8;
+            stroke: none;
+        }
+    }
+    @keyframes aparece-red  {
+        from {
+            fill: transparent;
+            stroke: #F9698C;
+        }
+        to {
+            fill: #F9698C;
+            stroke: none;
+        }
+    }
+    

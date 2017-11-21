@@ -1,0 +1,20 @@
+{
+  "name": "servidor_hci",
+  "version": "1.0.0",
+  "description": "Servidro web para sistema de recomendacion",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jose David Giraldo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-fileupload": "^0.3.0",
+    "mongodb": "^2.2.33",
+    "objectid": "^3.2.1",
+    "whatwg-fetch": "^2.0.3"
+  }
+}

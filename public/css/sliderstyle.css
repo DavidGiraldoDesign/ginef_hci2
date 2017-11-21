@@ -1,0 +1,70 @@
+
+.slidecontainer{
+    /*position: fixed;*/
+    /*bottom: 0;*/
+}
+
+#mujer .slider {
+    -webkit-appearance: none;
+    height: 10px;
+    background: #F4CBDC;
+    border-radius: 5px; 
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#mujer .slider:hover {
+    opacity: 1;
+}
+
+#mujer .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 50%; 
+    width: 20px;
+    height: 20px;
+    background: #F9698C;
+    cursor: pointer;
+}
+
+#mujer .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+/*==================================================*/
+#hombre .slider {
+    -webkit-appearance: none;
+    height: 10px;
+    background: #d3e7f7;
+    border-radius: 5px; 
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#hombre .slider:hover {
+    opacity: 1;
+}
+
+#hombre .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 50%; 
+    width: 20px;
+    height: 20px;
+    background: #acc2dd;
+    cursor: pointer;
+}
+
+#hombre .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}

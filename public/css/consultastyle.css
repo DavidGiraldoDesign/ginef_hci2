@@ -1,0 +1,308 @@
+#super {
+    position: fixed;
+    right: 0;
+}
+
+
+
+#runP5 {
+    position: fixed;
+    top: 10%;
+    z-index: 1;
+    margin-left: 33.33%;
+    background: #FFFCFA;
+    box-shadow: 1px 1px 3px #C1B9BD;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#runP5 h3 {
+    margin-top: 5%;
+}
+
+#runP5 p {
+    padding: 5%;
+}
+
+#runP5 button {
+    width: 40%;
+}
+
+#mujer .item-consulta svg {
+    padding: 1%;
+    width: 95%;
+    fill: #F9698C;
+}
+
+#fs {}
+
+#ginef {
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    overflow-y: hidden;
+
+}
+
+#ginef svg {
+    stroke: "none";
+    fill: #F9698C;
+}
+
+#mujer {
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    overflow-y: hidden;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #FFFCFA;
+    box-shadow: 1px 1px 10px #C1B9BD;
+    border-radius: 0 0 10px 0;
+}
+
+#mujer h2 {
+    color: #F9698C;
+}
+
+.chica {
+    padding: 0;
+    position: relative;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.nombre {
+    padding: 0;
+    position: relative;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+
+.chica div {
+    margin-left: 33.33%;
+}
+
+.chica svg {
+    position: relative;
+    height: 200%;
+    fill: #F9698C;
+}
+
+/*=====================================*/
+
+#confirmaPareja {
+    text-align: center;
+    margin-top: 40%;
+}
+
+#confirmaPareja h3 {
+    margin-left: 16.66%;
+    text-align: center;
+    color: #acc2dd;
+}
+
+#confirmaPareja p {
+    margin-left: 16.66%;
+    margin-top: 10%;
+}
+
+#confirmaPareja input {
+    margin-top: 10%;
+    margin-left: 16.66%;
+}
+
+#sinPareja {
+    position: fixed;
+    top: 0;
+    right: 2%;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+}
+
+#pareja {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 70%;
+}
+
+#hombre {
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    overflow-y: hidden;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background: #FFFCFA;
+    box-shadow: -1px -1px 10px #C1B9BD;
+    border-radius: 0 0 0 10px;
+}
+
+#hombre h2 {
+    color: #acc2dd;
+
+}
+
+#hombre h4 {
+    text-align: right;
+
+}
+
+#hombre .item-consulta svg {
+    padding: 1%;
+    width: 95%;
+    fill: #acc2dd;
+}
+
+.mensaje-condon {
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.mensaje-condon p {
+    color: #acc2dd;
+    font-size: 10pt;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#hombre .item-condon svg {
+    padding: 1%;
+    width: 95%;
+    fill: #acc2dd;
+}
+
+.chico {
+    padding: 0;
+    position: relative;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.chico div {
+
+    margin-left: 33.33%;
+}
+
+.chico svg {
+    position: relative;
+    height: 200%;
+    fill: #acc2dd;
+}
+
+/*===================================== Selectores */
+
+select {
+    font-family: 'Comfortaa', cursive;
+    font-size: 10pt;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    color: #EFEDEE;
+    background: transparent;
+    border: solid 2px #EFEDEE;
+    -webkit-transition: ease 2s;
+    /* Safari */
+    transition: ease 0.5s;
+}
+
+#mujer select:hover {
+    border: solid 2px #f9698c;
+    color: #f9698c;
+}
+
+
+#hombre select:hover {
+    border: solid 2px #acc2dd;
+    color: #acc2dd;
+}
+
+#mujer .select-on {
+    border: solid 2px #f9698c;
+    color: #f9698c;
+}
+
+#hombre .select-on {
+    border: solid 2px #acc2dd;
+    color: #acc2dd;
+}
+.costo-dinamico{
+text-align: center;
+    color: #7F7A7D;
+}
+/*=====================================*/
+
+.opciones {
+    padding: 0;
+    overflow: scroll;
+    position: relative;
+    height: 70%;
+}
+
+.opciones::-webkit-scrollbar {
+    display: none;
+}
+
+.opcion {
+    margin: 0;
+    height: auto;
+}
+
+/*---------------------------------------------------------------*/
+
+@media only screen and (max-width: 700px) {
+    .opciones {
+        padding-bottom: 20%;
+    }
+    #ginef {
+        margin-left: 33.33%;
+    }
+
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1199px) {
+    .opciones {
+        padding-bottom: 20%;
+    }
+    #ginef {
+        margin-left: 33.33%;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1699px) {
+    .opciones {
+        padding-bottom: 40%;
+    }
+    #ginef {
+        margin-left: 41.66%;
+    }
+
+}
+
+@media only screen and (min-width: 1700px) {
+    .opciones {
+        padding-bottom: 0;
+    }
+    #confirmaPareja p {
+        margin-left: 8.33%;
+
+    }
+    #confirmaPareja input {
+        margin-left: 8.33%;
+    }
+    #ginef {
+        margin-left: 41.66%;
+    }
+}
